@@ -1,0 +1,22 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "chrome >= 61"
+          ]
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "external-helpers",
+    "transform-react-jsx",
+    "syntax-object-rest-spread",
+    "transform-object-rest-spread",
+    "transform-decorators-legacy"
+  ]
+}
